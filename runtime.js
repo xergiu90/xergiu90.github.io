@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"pages-favorites-favourites-module":"pages-favorites-favourites-module","pages-home-home-module":"pages-home-home-module"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"default~pages-favorites-favourites-module~pages-home-home-module":"default~pages-favorites-favourites-module~pages-home-home-module","pages-favorites-favourites-module":"pages-favorites-favourites-module","pages-home-home-module":"pages-home-home-module"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
